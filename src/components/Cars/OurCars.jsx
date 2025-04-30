@@ -1,45 +1,52 @@
 import React from "react";
 import CarsCard from "./CarsCard";
 
-const OurCars =()=>{
+import car15 from '../../assets/img/car15.jpg';
+import car6 from '../../assets/img/car6.jpg';
+import car7 from '../../assets/img/car7.jpg';
+import car8 from '../../assets/img/car8.jpg';
+import car4 from '../../assets/img/car4.jpg';
+import car11 from '../../assets/img/car11.jpg';
+
+const OurCars = () => {
     const carsData = [
         {
-           id: 0,
-           img: "/assets/img/car15.jpg", // Notice the leading "/"
-           name: "Mercedes",
-           price: "60,0000",
+            id: 0,
+            img: car15, // Use the imported image here
+            name: 'Mercedes',
+            price: '60,0000',
         },
         {
-           id: 1,
-           img: "/assets/img/car6.jpg",
-           name: "Audi",
-           price: "70,0000",
+            id: 1,
+            img: car6,
+            name: 'Audi',
+            price: '70,0000',
         },
         {
-           id: 2,
-           img: "/assets/img/car7.jpg",
-           name: "BMW Series-5",
-           price: "75,0000",
+            id: 2,
+            img: car7,
+            name: 'BMW Series-5',
+            price: '75,0000',
         },
         {
-           id: 3,
-           img: "/assets/img/car8.jpg",
-           name: "Range Rover",
-           price: "50,0000",
+            id: 3,
+            img: car8,
+            name: 'Range Rover',
+            price: '50,0000',
         },
         {
-           id: 4,
-           img: "/assets/img/car4.jpg",
-           name: "BMW Series-3",
-           price: "60,0000",
+            id: 4,
+            img: car4,
+            name: 'BMW Series-3',
+            price: '60,0000',
         },
         {
-           id: 5,
-           img: "/assets/img/car11.jpg",
-           name: "Cadillac",
-           price: "55,0000",
+            id: 5,
+            img: car11,
+            name: 'Cadillac',
+            price: '55,0000',
         },
-     ]
+    ];
      
     return(
         <div className="container pt-24">
